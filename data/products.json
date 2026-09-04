@@ -1,0 +1,809 @@
+{
+  "sizeInfo": {
+    "4oz": {
+      "tr": {
+        "label": "4 OZ",
+        "capacity": "120ml",
+        "specs": [
+          [
+            "Kapasite",
+            "4oz (120ml)"
+          ],
+          [
+            "Ağız Çapı",
+            "62mm"
+          ],
+          [
+            "Yükseklik",
+            "60mm"
+          ],
+          [
+            "Taban Çapı",
+            "45mm"
+          ]
+        ]
+      },
+      "en": {
+        "label": "4 OZ",
+        "capacity": "120ml",
+        "specs": [
+          [
+            "Capacity",
+            "4oz (120ml)"
+          ],
+          [
+            "Rim Diameter",
+            "62mm"
+          ],
+          [
+            "Height",
+            "60mm"
+          ],
+          [
+            "Base Diameter",
+            "45mm"
+          ]
+        ]
+      }
+    },
+    "7oz": {
+      "tr": {
+        "label": "7 OZ",
+        "capacity": "180ml",
+        "specs": [
+          [
+            "Kapasite",
+            "7oz (180ml)"
+          ],
+          [
+            "Ağız Çapı",
+            "70mm"
+          ],
+          [
+            "Yükseklik",
+            "79mm"
+          ],
+          [
+            "Taban Çapı",
+            "49mm"
+          ]
+        ]
+      },
+      "en": {
+        "label": "7 OZ",
+        "capacity": "180ml",
+        "specs": [
+          [
+            "Capacity",
+            "7oz (180ml)"
+          ],
+          [
+            "Rim Diameter",
+            "70mm"
+          ],
+          [
+            "Height",
+            "79mm"
+          ],
+          [
+            "Base Diameter",
+            "49mm"
+          ]
+        ]
+      }
+    },
+    "8oz": {
+      "tr": {
+        "label": "8 OZ",
+        "capacity": "240ml",
+        "specs": [
+          [
+            "Kapasite",
+            "8oz (240ml)"
+          ],
+          [
+            "Ağız Çapı",
+            "80mm"
+          ],
+          [
+            "Yükseklik",
+            "90mm"
+          ],
+          [
+            "Taban Çapı",
+            "52mm"
+          ]
+        ]
+      },
+      "en": {
+        "label": "8 OZ",
+        "capacity": "240ml",
+        "specs": [
+          [
+            "Capacity",
+            "8oz (240ml)"
+          ],
+          [
+            "Rim Diameter",
+            "80mm"
+          ],
+          [
+            "Height",
+            "90mm"
+          ],
+          [
+            "Base Diameter",
+            "52mm"
+          ]
+        ]
+      }
+    }
+  },
+  "commonFeatures": {
+    "tr": [
+      "Baskılı veya baskısız üretim seçeneği",
+      "4 renge kadar özel baskı imkânı",
+      "Sıcak ve soğuk içecek servisine uygun",
+      "Türkiye geneli gönderim"
+    ],
+    "en": [
+      "Printed or plain production options",
+      "Custom printing up to 4 colors",
+      "Suitable for hot and cold beverages",
+      "Nationwide delivery across Turkey"
+    ]
+  },
+  "products": [
+    {
+      "id": "7oz-baskisiz",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-baskisiz-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-baskisiz-karton-bardak",
+        "name": "Baskısız",
+        "title": "7 OZ Baskısız Karton Bardak",
+        "metaDescription": "7 OZ Baskısız Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Baskısız 7 OZ karton bardak, sade servis ve markanıza özel baskı için ideal bir tabandır.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-plain-paper-cup",
+        "name": "Plain",
+        "title": "7 OZ Plain Paper Cup",
+        "metaDescription": "7 OZ Plain Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The plain 7 OZ paper cup is ideal for clean service and as a base for custom printing.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-cizgi",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-cizgi-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-cizgi-karton-bardak",
+        "name": "Çizgi",
+        "title": "7 OZ Çizgi Desenli Karton Bardak",
+        "metaDescription": "7 OZ Çizgi Desenli Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Çizgi desenli 7 OZ karton bardak, minimal ve modern servis anlayışı için uygundur.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-line-pattern-paper-cup",
+        "name": "Line",
+        "title": "7 OZ Line Pattern Paper Cup",
+        "metaDescription": "7 OZ Line Pattern Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The line pattern 7 OZ paper cup suits businesses that prefer a clean, modern service look.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-coffee",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-coffee-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-coffee-karton-bardak",
+        "name": "Coffee",
+        "title": "7 OZ Coffee Karton Bardak",
+        "metaDescription": "7 OZ Coffee Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Coffee desenli 7 OZ karton bardak, günlük kahve servisi için pratik ve tanınabilir bir modeldir.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-coffee-paper-cup",
+        "name": "Coffee",
+        "title": "7 OZ Coffee Paper Cup",
+        "metaDescription": "7 OZ Coffee Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The Coffee 7 OZ paper cup is a practical, recognizable model for daily coffee service.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-coffee-renkli",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-coffee-renkli-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-coffee-renkli-karton-bardak",
+        "name": "Coffee Renkli",
+        "title": "7 OZ Coffee Renkli Karton Bardak",
+        "metaDescription": "7 OZ Coffee Renkli Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Renkli coffee desenli 7 OZ karton bardak, canlı servis görünümü sunar.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-color-coffee-paper-cup",
+        "name": "Color Coffee",
+        "title": "7 OZ Color Coffee Paper Cup",
+        "metaDescription": "7 OZ Color Coffee Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The color coffee 7 OZ paper cup offers a vibrant look for everyday beverage service.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-espresso",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-espresso-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-espresso-karton-bardak",
+        "name": "Espresso",
+        "title": "7 OZ Espresso Karton Bardak",
+        "metaDescription": "7 OZ Espresso Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Espresso desenli 7 OZ karton bardak, kahve dükkanları için estetik bir servis seçeneğidir.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-espresso-paper-cup",
+        "name": "Espresso",
+        "title": "7 OZ Espresso Paper Cup",
+        "metaDescription": "7 OZ Espresso Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The espresso 7 OZ paper cup is an aesthetic service option for coffee shops.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-kraft",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-kraft-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-kraft-karton-bardak",
+        "name": "Kraft",
+        "title": "7 OZ Kraft Karton Bardak",
+        "metaDescription": "7 OZ Kraft Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Kraft 7 OZ karton bardak, doğal görünümüyle organik kafe konseptleri için idealdir.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-kraft-paper-cup",
+        "name": "Kraft",
+        "title": "7 OZ Kraft Paper Cup",
+        "metaDescription": "7 OZ Kraft Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The kraft 7 OZ paper cup is ideal for organic cafe concepts with its natural look.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-kraft-yildiz",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-kraft-yildiz-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-kraft-yildiz-karton-bardak",
+        "name": "Kraft Yıldız",
+        "title": "7 OZ Kraft Yıldız Karton Bardak",
+        "metaDescription": "7 OZ Kraft Yıldız Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Kraft yıldız desenli 7 OZ karton bardak, doğal ve dekoratif bir servis sunar.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-kraft-star-paper-cup",
+        "name": "Kraft Star",
+        "title": "7 OZ Kraft Star Paper Cup",
+        "metaDescription": "7 OZ Kraft Star Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The kraft star 7 OZ paper cup combines a natural base with a decorative pattern.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-petek",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-petek-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-petek-karton-bardak",
+        "name": "Petek",
+        "title": "7 OZ Petek Desenli Karton Bardak",
+        "metaDescription": "7 OZ Petek Desenli Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Petek desenli 7 OZ karton bardak, geometrik ve şık bir servis görünümü sunar.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-honeycomb-pattern-paper-cup",
+        "name": "Honeycomb",
+        "title": "7 OZ Honeycomb Pattern Paper Cup",
+        "metaDescription": "7 OZ Honeycomb Pattern Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The honeycomb pattern 7 OZ paper cup offers a geometric, elegant service look.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-retro",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-retro-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-retro-karton-bardak",
+        "name": "Retro",
+        "title": "7 OZ Retro Karton Bardak",
+        "metaDescription": "7 OZ Retro Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Retro desenli 7 OZ karton bardak, nostaljik ve dikkat çekici bir servis görünümü sağlar.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-retro-paper-cup",
+        "name": "Retro",
+        "title": "7 OZ Retro Paper Cup",
+        "metaDescription": "7 OZ Retro Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The retro 7 OZ paper cup delivers a nostalgic, eye-catching service look.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-togo",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-togo-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-togo-karton-bardak",
+        "name": "To Go",
+        "title": "7 OZ To Go Karton Bardak",
+        "metaDescription": "7 OZ To Go Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "To Go 7 OZ karton bardak, paket servis odaklı işletmeler için pratik bir çözümdür.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-to-go-paper-cup",
+        "name": "To Go",
+        "title": "7 OZ To Go Paper Cup",
+        "metaDescription": "7 OZ To Go Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The To Go 7 OZ paper cup is a practical solution for takeaway-focused businesses.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-xox",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-xox-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-xox-karton-bardak",
+        "name": "XOX",
+        "title": "7 OZ XOX Karton Bardak",
+        "metaDescription": "7 OZ XOX Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "XOX desenli 7 OZ karton bardak, modern ve dinamik markalar için farklılaştırıcı bir seçenektir.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-xox-paper-cup",
+        "name": "XOX",
+        "title": "7 OZ XOX Paper Cup",
+        "metaDescription": "7 OZ XOX Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The XOX 7 OZ paper cup is a distinctive option for modern, dynamic brands.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "7oz-yildiz",
+      "size": "7oz",
+      "image": "images/7oz-karton-bardak/7oz-yildiz-karton-bardak.png",
+      "tr": {
+        "slug": "7oz-yildiz-karton-bardak",
+        "name": "Yıldız",
+        "title": "7 OZ Yıldız Desenli Karton Bardak",
+        "metaDescription": "7 OZ Yıldız Desenli Karton Bardak. Baskılı ve baskısız seçenekler, markanıza özel üretim. Avas Cup.",
+        "description": "Yıldız desenli 7 OZ karton bardak, Avas Cup'un en çok tercih edilen modellerinden biridir.",
+        "uses": [
+          "Kafe servisi",
+          "Restoran içecek servisi",
+          "Etkinlik ikramları",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "7oz-star-pattern-paper-cup",
+        "name": "Star",
+        "title": "7 OZ Star Pattern Paper Cup",
+        "metaDescription": "7 OZ Star Pattern Paper Cup. Printed and plain options, custom production for your brand. Avas Cup.",
+        "description": "The star pattern 7 OZ paper cup is one of Avas Cup's most popular models.",
+        "uses": [
+          "Cafe service",
+          "Restaurant beverage service",
+          "Event catering",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "4oz-good-idea",
+      "size": "4oz",
+      "image": "images/4oz-karton-bardak/4oz-good-idea.jpg",
+      "tr": {
+        "slug": "4oz-good-idea-karton-bardak",
+        "name": "Good Idea",
+        "title": "4 OZ Good Idea Karton Bardak",
+        "metaDescription": "4 OZ Good Idea karton bardak. Espresso ve tadım servisi için küçük porsiyon bardak.",
+        "description": "Good Idea 4 OZ karton bardak, espresso, tadım ve ikram servisleri için tasarlanmış kompakt bir modeldir.",
+        "uses": [
+          "Espresso servisi",
+          "Kahve tadım etkinlikleri",
+          "Fuar ikramları",
+          "Otel resepsiyon servisi"
+        ]
+      },
+      "en": {
+        "slug": "4oz-good-idea-paper-cup",
+        "name": "Good Idea",
+        "title": "4 OZ Good Idea Paper Cup",
+        "metaDescription": "4 OZ Good Idea paper cup. Small portion cup for espresso and tasting service.",
+        "description": "The Good Idea 4 OZ paper cup is a compact model designed for espresso, tasting and sampling service.",
+        "uses": [
+          "Espresso service",
+          "Coffee tasting events",
+          "Trade show samples",
+          "Hotel reception service"
+        ]
+      }
+    },
+    {
+      "id": "4oz-beyaz",
+      "size": "4oz",
+      "image": "images/4oz-karton-bardak/4oz-beyaz.jpg",
+      "tr": {
+        "slug": "4oz-beyaz-karton-bardak",
+        "name": "Beyaz",
+        "title": "4 OZ Beyaz Karton Bardak",
+        "metaDescription": "4 OZ beyaz karton bardak. Baskısız ve özel baskılı küçük porsiyon bardak.",
+        "description": "Beyaz 4 OZ karton bardak, küçük porsiyon servislerinde sade görünüm ve özel baskı imkânı sunar.",
+        "uses": [
+          "Espresso servisi",
+          "Özel baskılı mini bardak",
+          "Tadım etkinlikleri",
+          "Kurumsal sunumlar"
+        ]
+      },
+      "en": {
+        "slug": "4oz-white-paper-cup",
+        "name": "White",
+        "title": "4 OZ White Paper Cup",
+        "metaDescription": "4 OZ white paper cup. Plain and custom printed small portion cup.",
+        "description": "The white 4 OZ paper cup offers a clean look and custom printing options for small-portion service.",
+        "uses": [
+          "Espresso service",
+          "Custom printed mini cups",
+          "Tasting events",
+          "Corporate presentations"
+        ]
+      }
+    },
+    {
+      "id": "4oz-kraft",
+      "size": "4oz",
+      "image": "images/4oz-karton-bardak/4oz-kraft.jpg",
+      "tr": {
+        "slug": "4oz-kraft-karton-bardak",
+        "name": "Kraft",
+        "title": "4 OZ Kraft Karton Bardak",
+        "metaDescription": "4 OZ kraft karton bardak. Doğal görünümlü küçük porsiyon bardak.",
+        "description": "Kraft 4 OZ karton bardak, doğal estetik arayan işletmeler için küçük porsiyon servisinde ideal bir seçenektir.",
+        "uses": [
+          "Artizan kahve tadımı",
+          "Organik marka sunumları",
+          "Espresso servisi",
+          "Butik kafe konseptleri"
+        ]
+      },
+      "en": {
+        "slug": "4oz-kraft-paper-cup",
+        "name": "Kraft",
+        "title": "4 OZ Kraft Paper Cup",
+        "metaDescription": "4 OZ kraft paper cup. Natural-looking small portion cup.",
+        "description": "The kraft 4 OZ paper cup is an ideal option for businesses seeking a natural aesthetic in small-portion service.",
+        "uses": [
+          "Artisan coffee tasting",
+          "Organic brand presentations",
+          "Espresso service",
+          "Boutique cafe concepts"
+        ]
+      }
+    },
+    {
+      "id": "4oz-coffee-mix",
+      "size": "4oz",
+      "image": "images/4oz-karton-bardak/4oz-coffee-mix.jpg",
+      "tr": {
+        "slug": "4oz-coffee-mix-karton-bardak",
+        "name": "Coffee Mix",
+        "title": "4 OZ Coffee Mix Karton Bardak",
+        "metaDescription": "4 OZ Coffee Mix karton bardak. Kahve odaklı küçük porsiyon servis bardakları.",
+        "description": "Coffee Mix 4 OZ karton bardak, kahve odaklı küçük porsiyon servislerinde pratik ve estetik bir çözümdür.",
+        "uses": [
+          "Espresso bar servisi",
+          "Kahve dükkanı tadım",
+          "Otel mini servis",
+          "Etkinlik ikramları"
+        ]
+      },
+      "en": {
+        "slug": "4oz-coffee-mix-paper-cup",
+        "name": "Coffee Mix",
+        "title": "4 OZ Coffee Mix Paper Cup",
+        "metaDescription": "4 OZ Coffee Mix paper cup. Coffee-focused small portion service cups.",
+        "description": "The Coffee Mix 4 OZ paper cup is a practical and aesthetic solution for coffee-focused small-portion service.",
+        "uses": [
+          "Espresso bar service",
+          "Coffee shop tasting",
+          "Hotel mini service",
+          "Event catering"
+        ]
+      }
+    },
+    {
+      "id": "8oz-coffee",
+      "size": "8oz",
+      "image": "images/8oz-karton-bardak/8oz-coffee.jpg",
+      "tr": {
+        "slug": "8oz-coffee-karton-bardak",
+        "name": "Coffee",
+        "title": "8 OZ Coffee Karton Bardak",
+        "metaDescription": "8 OZ Coffee karton bardak. Standart kahve servisi için ideal bardak boyutu.",
+        "description": "Coffee 8 OZ karton bardak, standart kahve servisi için en yaygın kullanılan boyutlardan biridir.",
+        "uses": [
+          "Standart kahve servisi",
+          "Kafe ve restoran",
+          "Ofis içecek servisi",
+          "Paket servis"
+        ]
+      },
+      "en": {
+        "slug": "8oz-coffee-paper-cup",
+        "name": "Coffee",
+        "title": "8 OZ Coffee Paper Cup",
+        "metaDescription": "8 OZ Coffee paper cup. Ideal cup size for standard coffee service.",
+        "description": "The Coffee 8 OZ paper cup is one of the most commonly used sizes for standard coffee service.",
+        "uses": [
+          "Standard coffee service",
+          "Cafe and restaurant",
+          "Office beverage service",
+          "Takeaway"
+        ]
+      }
+    },
+    {
+      "id": "8oz-special-coffee-to-go",
+      "size": "8oz",
+      "image": "images/8oz-karton-bardak/8oz-special-coffee-to-go.jpg",
+      "tr": {
+        "slug": "8oz-special-coffee-to-go-karton-bardak",
+        "name": "Special Coffee To Go",
+        "title": "8 OZ Special Coffee To Go Karton Bardak",
+        "metaDescription": "8 OZ Special Coffee To Go karton bardak. Büyük porsiyon paket servis bardakları.",
+        "description": "Special Coffee To Go 8 OZ karton bardak, büyük porsiyon paket servis ihtiyaçları için tasarlanmıştır.",
+        "uses": [
+          "Paket servis kahve",
+          "Büyük boy içecek servisi",
+          "Drive-through",
+          "Zincir kafe operasyonları"
+        ]
+      },
+      "en": {
+        "slug": "8oz-special-coffee-to-go-paper-cup",
+        "name": "Special Coffee To Go",
+        "title": "8 OZ Special Coffee To Go Paper Cup",
+        "metaDescription": "8 OZ Special Coffee To Go paper cup. Large portion takeaway cups.",
+        "description": "The Special Coffee To Go 8 OZ paper cup is designed for large-portion takeaway service needs.",
+        "uses": [
+          "Takeaway coffee",
+          "Large beverage service",
+          "Drive-through",
+          "Chain cafe operations"
+        ]
+      }
+    },
+    {
+      "id": "8oz-beyaz",
+      "size": "8oz",
+      "image": "images/8oz-karton-bardak/8oz-beyaz.jpg",
+      "tr": {
+        "slug": "8oz-beyaz-karton-bardak",
+        "name": "Beyaz",
+        "title": "8 OZ Beyaz Karton Bardak",
+        "metaDescription": "8 OZ beyaz karton bardak. Özel baskı ve baskısız servis için ideal 8 OZ bardak.",
+        "description": "Beyaz 8 OZ karton bardak, özel baskılı üretim ve baskısız servis için en çok tercih edilen modellerden biridir.",
+        "uses": [
+          "Özel baskılı bardak",
+          "Kurumsal servis",
+          "Kafe operasyonları",
+          "Etkinlik organizasyonları"
+        ]
+      },
+      "en": {
+        "slug": "8oz-white-paper-cup",
+        "name": "White",
+        "title": "8 OZ White Paper Cup",
+        "metaDescription": "8 OZ white paper cup. Ideal 8 OZ cup for custom print and plain service.",
+        "description": "The white 8 OZ paper cup is one of the most popular models for custom printed production and plain service.",
+        "uses": [
+          "Custom printed cups",
+          "Corporate service",
+          "Cafe operations",
+          "Event organization"
+        ]
+      }
+    },
+    {
+      "id": "8oz-kraft",
+      "size": "8oz",
+      "image": "images/8oz-karton-bardak/8oz-kraft.jpg",
+      "tr": {
+        "slug": "8oz-kraft-karton-bardak",
+        "name": "Kraft",
+        "title": "8 OZ Kraft Karton Bardak",
+        "metaDescription": "8 OZ kraft karton bardak. Doğal görünümlü standart servis bardakları.",
+        "description": "Kraft 8 OZ karton bardak, doğal ve sürdürülebilir marka kimliği arayan işletmeler için standart servis boyutunda ideal bir seçenektir.",
+        "uses": [
+          "Organik kafe konseptleri",
+          "Sürdürülebilir markalar",
+          "Artizan kahve servisi",
+          "Doğal ürün sunumları"
+        ]
+      },
+      "en": {
+        "slug": "8oz-kraft-paper-cup",
+        "name": "Kraft",
+        "title": "8 OZ Kraft Paper Cup",
+        "metaDescription": "8 OZ kraft paper cup. Natural-looking standard service cups.",
+        "description": "The kraft 8 OZ paper cup is an ideal standard-size option for businesses seeking a natural, sustainable brand identity.",
+        "uses": [
+          "Organic cafe concepts",
+          "Sustainable brands",
+          "Artisan coffee service",
+          "Natural product presentations"
+        ]
+      }
+    },
+    {
+      "id": "8oz-coffee-mix",
+      "size": "8oz",
+      "image": "images/8oz-karton-bardak/8oz-coffee-mix.jpg",
+      "tr": {
+        "slug": "8oz-coffee-mix-karton-bardak",
+        "name": "Coffee Mix",
+        "title": "8 OZ Coffee Mix Karton Bardak",
+        "metaDescription": "8 OZ Coffee Mix karton bardak. Kahve servisi için desenli 8 OZ bardak modeli.",
+        "description": "Coffee Mix 8 OZ karton bardak, kahve servisinde estetik ve pratik bir çözüm sunan desenli bir modeldir.",
+        "uses": [
+          "Kahve dükkanı servisi",
+          "Restoran içecek servisi",
+          "Otel kahvaltı",
+          "Kurumsal etkinlikler"
+        ]
+      },
+      "en": {
+        "slug": "8oz-coffee-mix-paper-cup",
+        "name": "Coffee Mix",
+        "title": "8 OZ Coffee Mix Paper Cup",
+        "metaDescription": "8 OZ Coffee Mix paper cup. Patterned 8 OZ cup model for coffee service.",
+        "description": "The Coffee Mix 8 OZ paper cup is a patterned model offering an aesthetic and practical solution for coffee service.",
+        "uses": [
+          "Coffee shop service",
+          "Restaurant beverage service",
+          "Hotel breakfast",
+          "Corporate events"
+        ]
+      }
+    }
+  ]
+}

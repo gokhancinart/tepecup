@@ -1,0 +1,400 @@
+{
+  "baseUrl": "https://www.avascup.com",
+  "contact": {
+    "phone": "+905313369259",
+    "phoneDisplay": "+90 531 336 92 59",
+    "email": "erkinbay.avs@gmail.com",
+    "address": {
+      "tr": "İkitelli OSB Mahallesi, Eskoop Sanayi Sitesi C5 Blok No:235, Başakşehir / İstanbul",
+      "en": "Ikitelli OSB District, Eskoop Industrial Site C5 Block No:235, Basaksehir / Istanbul, Turkey"
+    },
+    "whatsapp": "905313369259",
+    "mapEmbed": ""
+  },
+  "tr": {
+    "lang": "tr",
+    "locale": "tr_TR",
+    "homePath": "/tr/",
+    "productsPath": "/tr/urunler/",
+    "aboutPath": "/tr/hakkimizda.html",
+    "faqPath": "/tr/sss.html",
+    "privacyPath": "/tr/kvkk.html",
+    "productsSection": "urunler",
+    "printSection": "baski",
+    "whySection": "neden-karton",
+    "refsSection": "referanslar",
+    "contactSection": "iletisim",
+    "nav": {
+      "home": "Ana Sayfa",
+      "products": "Ürünler",
+      "print": "Baskılı Bardak",
+      "refs": "Referanslar",
+      "about": "Hakkımızda",
+      "faq": "SSS",
+      "contact": "İletişim",
+      "quote": "Teklif Al"
+    },
+    "pagesMeta": {
+      "products": {
+        "title": "Ürünlerimiz | Avas Cup",
+        "metaDescription": "4 OZ, 7 OZ ve 8 OZ karton bardak modelleri. Baskılı ve baskısız seçenekler, detaylı ürün sayfaları ve teklif alın."
+      },
+      "print": {
+        "title": "Baskılı Bardak Tasarımı | Avas Cup",
+        "metaDescription": "Logonuzu yükleyin, baskılı karton bardağınızı canlı önizleyin. PDF ve JPEG desteği ile anında tasarım kontrolü."
+      },
+      "references": {
+        "title": "Referanslarımız | Avas Cup",
+        "metaDescription": "Avas Cup referansları — belediyeler, kurumlar, kafe zincirleri ve markalar için üretilen baskılı karton bardaklar."
+      },
+      "contact": {
+        "title": "İletişim | Avas Cup",
+        "metaDescription": "Avas Cup ile iletişime geçin. Telefon, e-posta, adres ve WhatsApp üzerinden teklif alın."
+      }
+    },
+    "meta": {
+      "homeTitle": "Avas Cup | Karton Bardak Üretimi",
+      "homeDescription": "Avas Cup — 4 oz, 7 oz ve 8 oz karton bardak üretimi. Baskılı ve baskısız seçenekler, 4 renge kadar baskı ve Türkiye geneli gönderim."
+    },
+    "hero": {
+      "eyebrow": "AVAS CUP • KARTON BARDAK ÜRETİMİ",
+      "title": "Karton bardakta",
+      "titleHighlight": "kaliteli üretim.",
+      "text": "İşletmenizin her türlü ebatta baskılı veya baskısız karton bardak ihtiyacına uygun, kaliteli ve ekonomik çözümler sunuyoruz. İhtiyaçlarınıza özel üretim seçeneklerimiz hakkında bilgi almak ve teklif oluşturmak için bizimle iletişime geçin.",
+      "ctaPrimary": "WhatsApp'tan Bize Ulaşın",
+      "ctaSecondary": "Ürünleri İncele"
+    },
+    "products": {
+      "eyebrow": "ÜRÜNLERİMİZ",
+      "title": "İhtiyacınıza uygun karton bardak seçenekleri.",
+      "subtitle": "4 OZ, 7 OZ ve 8 OZ karton bardak seçeneklerimizi baskılı veya baskısız olarak inceleyebilirsiniz.",
+      "sizes": {
+        "4oz": {
+          "label": "4 OZ",
+          "badge": "04 OZ",
+          "title": "4 OZ Karton Bardak Modelleri",
+          "desc": "Espresso, tadım, ikram ve küçük porsiyon servisleri için 4 OZ baskılı ve baskısız karton bardak seçeneklerimizi inceleyin."
+        },
+        "7oz": {
+          "label": "7 OZ",
+          "badge": "EN ÇOK ÜRETİLEN",
+          "title": "7 OZ Karton Bardak Modelleri",
+          "desc": "Baskılı veya baskısız 7 OZ karton bardak seçeneklerimizi inceleyin. Yıldız, zincir, kraft, beyaz ve farklı özel desen alternatifleri mevcuttur."
+        },
+        "8oz": {
+          "label": "8 OZ",
+          "badge": "8 OZ",
+          "title": "8 OZ Karton Bardak Modelleri",
+          "desc": "Sıcak ve soğuk içecek servisleri için 8 OZ baskılı ve baskısız karton bardak seçeneklerimizi inceleyin."
+        }
+      },
+      "options": [
+        { "strong": "Baskılı veya baskısız", "span": "İhtiyacınıza uygun üretim seçeneği" },
+        { "strong": "4 renge kadar baskı", "span": "Markanıza özel baskı çözümleri" },
+        { "strong": "Türkiye geneli gönderim", "span": "Siparişlerinizi Türkiye'nin her yerine ulaştırıyoruz" }
+      ],
+      "viewDetail": "Detayları Gör"
+    },
+    "print": {
+      "eyebrow": "BASKILI BARDAK TASARIMI",
+      "title": "Logonuzu yükleyin, bardağınızı önceden görün.",
+      "desc": "Müşterileriniz PDF veya JPEG formatındaki logolarını yükleyerek baskılı karton bardağın yaklaşık görünümünü anında önizleyebilir. Bu önizleme tasarım onayı içindir; gerçek baskı dosyası üretim ölçülerine göre ayrıca hazırlanır."
+    },
+    "why": {
+      "eyebrow": "NEDEN KARTON BARDAK?",
+      "title": "Günlük servis için pratik, markanız için güçlü bir tercih.",
+      "desc": "Karton bardaklar; kahve, çay ve diğer sıcak-soğuk içeceklerin hızlı ve düzenli servis edilmesini kolaylaştırır. Baskılı seçeneklerde ise bardak, işletmenizin markasını müşterinin eline taşıyan görünür bir iletişim alanına dönüşür."
+    },
+    "refs": {
+      "eyebrow": "REFERANSLARIMIZ",
+      "title": "Birlikte büyüdüğümüz işletmeler.",
+      "desc": "Markanızın ihtiyacına uygun karton bardak çözümleri için Avas Cup ile iletişime geçin.",
+      "filterLabel": "Referans filtreleri",
+      "filterAll": "Tümü",
+      "filters": {
+        "municipality": "Belediyeler",
+        "corporate": "Kurumlar",
+        "cafe": "Kafe & Restoran",
+        "retail": "Perakende",
+        "education": "Eğitim",
+        "healthcare": "Sağlık",
+        "international": "Uluslararası"
+      },
+      "viewDetail": "Detayları gör",
+      "emptyFilter": "Bu kategoride referans bulunamadı.",
+      "modalClose": "Kapat",
+      "modalQuote": "Benzer teklif al",
+      "modalSize": "Ölçü",
+      "modalPrint": "Baskı",
+      "modalSector": "Sektör",
+      "quoteMessage": "Merhaba, {name} referansınızdaki gibi baskılı karton bardak için teklif almak istiyorum."
+    },
+    "cta": {
+      "eyebrow": "TEKLİF AL",
+      "title": "İhtiyacınız olan karton bardak için konuşalım.",
+      "desc": "Ölçü, baskı ve sipariş detaylarınızı paylaşın; teklif için bizimle iletişime geçin.",
+      "btn": "WhatsApp'tan Yazın"
+    },
+    "contact": {
+      "eyebrow": "İLETİŞİM",
+      "title": "Avas Cup ile iletişime geçin.",
+      "desc": "Teklif ve ürün detayları için bize ulaşabilirsiniz.",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Adres"
+    },
+    "footer": {
+      "tagline": "Take it, drink it.",
+      "menu": "Hızlı Menü",
+      "contact": "İletişim",
+      "legal": "Yasal",
+      "copyright": "© 2026 Avas Cup. Tüm hakları saklıdır."
+    },
+    "about": {
+      "title": "Hakkımızda | Avas Cup",
+      "metaDescription": "Avas Cup hakkında bilgi edinin. İstanbul'da karton bardak üretimi, baskılı bardak çözümleri ve Türkiye geneli teslimat.",
+      "eyebrow": "HAKKIMIZDA",
+      "heading": "Karton bardakta güvenilir üretim ortağınız.",
+      "paragraphs": [
+        "Avas Cup, İstanbul İkitelli OSB'deki tesisimizde 4 OZ, 7 OZ ve 8 OZ karton bardak üretimi yapmaktadır. Kahve dükkanları, restoranlar, kurumlar ve etkinlik organizasyonları için baskılı ve baskısız bardak çözümleri sunuyoruz.",
+        "Geniş desen kataloğumuzun yanı sıra markanıza özel baskı seçenekleri de mevcuttur. 4 renge kadar baskı imkânı ile logonuzu ve kurumsal kimliğinizi bardağa taşıyabilirsiniz.",
+        "Türkiye genelinde gönderim yapıyor; belediyelerden sigorta şirketlerine, kafe zincirlerinden kurumsal markalara kadar geniş bir referans portföyüne hizmet veriyoruz."
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular | Avas Cup",
+      "metaDescription": "Karton bardak siparişi, minimum adet, baskı seçenekleri ve teslimat hakkında sıkça sorulan sorular.",
+      "eyebrow": "SSS",
+      "heading": "Sıkça sorulan sorular.",
+      "items": [
+        { "q": "Minimum sipariş adedi nedir?", "a": "Minimum sipariş adedi ürün ölçüsüne ve baskı türüne göre değişir. Güncel bilgi için WhatsApp veya telefon ile bize ulaşabilirsiniz." },
+        { "q": "Baskılı ve baskısız bardak üretiyor musunuz?", "a": "Evet. Hazır desenli modellerimizin yanı sıra markanıza özel baskılı karton bardak üretimi de yapıyoruz." },
+        { "q": "Kaç renk baskı yapılabiliyor?", "a": "4 renge kadar baskı seçeneği sunuyoruz. Tasarım dosyanızı paylaştığınızda teknik uygunluğu birlikte değerlendiriyoruz." },
+        { "q": "Hangi ölçülerde bardak üretiyorsunuz?", "a": "4 OZ, 7 OZ ve 8 OZ karton bardak seçeneklerimiz mevcuttur. Her ölçü farklı servis ihtiyaçlarına uygundur." },
+        { "q": "Teslimat süresi ne kadar?", "a": "Stok ürünlerde teslimat daha hızlıdır. Baskılı ve özel üretim siparişlerinde adet ve tasarım onayına göre süre belirlenir." },
+        { "q": "Türkiye'nin her yerine gönderim yapıyor musunuz?", "a": "Evet, Türkiye genelinde kargo ile gönderim sağlıyoruz." }
+      ]
+    },
+    "privacy": {
+      "title": "KVKK Aydınlatma Metni | Avas Cup",
+      "metaDescription": "Avas Cup Kişisel Verilerin Korunması Kanunu (KVKK) aydınlatma metni ve gizlilik politikası.",
+      "eyebrow": "KVKK",
+      "heading": "Kişisel Verilerin Korunması Aydınlatma Metni",
+      "paragraphs": [
+        "6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") kapsamında, Avas Cup olarak kişisel verilerinizin güvenliğine önem veriyoruz.",
+        "Web sitemiz üzerinden veya iletişim kanallarımız aracılığıyla paylaştığınız ad, telefon numarası, e-posta adresi ve sipariş bilgileri; teklif hazırlama, sipariş yönetimi ve müşteri iletişimi amaçlarıyla işlenmektedir.",
+        "Kişisel verileriniz, yasal yükümlülüklerimiz ve hizmet sunumu dışında üçüncü kişilerle paylaşılmaz. KVKK kapsamındaki haklarınız için bizimle iletişime geçebilirsiniz.",
+        "Bu site, kullanıcı deneyimini iyileştirmek amacıyla teknik çerezler kullanabilir. Detaylı bilgi için bizimle iletişime geçebilirsiniz."
+      ]
+    },
+    "productDetail": {
+      "sizeLabel": "Ölçü",
+      "technicalTitle": "Teknik Özellikler",
+      "featuresTitle": "Özellikler",
+      "usesTitle": "Kullanım Alanları",
+      "relatedTitle": "Benzer Ürünler",
+      "quoteBtn": "Bu Ürün İçin Teklif Al",
+      "backToProducts": "Tüm Ürünlere Dön",
+      "breadcrumbHome": "Ana Sayfa",
+      "breadcrumbProducts": "Ürünler"
+    },
+    "whatsappMessages": {
+      "general": "Merhaba, Avas Cup'tan karton bardak için teklif almak istiyorum.",
+      "quote": "Merhaba, Avas Cup'tan teklif almak istiyorum.",
+      "product": "Merhaba, {product} hakkında teklif almak istiyorum."
+    }
+  },
+  "en": {
+    "lang": "en",
+    "locale": "en_US",
+    "homePath": "/en/",
+    "productsPath": "/en/products/",
+    "aboutPath": "/en/about.html",
+    "faqPath": "/en/faq.html",
+    "privacyPath": "/en/privacy.html",
+    "productsSection": "products",
+    "printSection": "custom-print",
+    "whySection": "why-paper-cups",
+    "refsSection": "references",
+    "contactSection": "contact",
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "print": "Custom Print",
+      "refs": "References",
+      "about": "About",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "quote": "Get a Quote"
+    },
+    "pagesMeta": {
+      "products": {
+        "title": "Our Products | Avas Cup",
+        "metaDescription": "4 OZ, 7 OZ and 8 OZ paper cup models. Printed and plain options, detailed product pages and request a quote."
+      },
+      "print": {
+        "title": "Custom Print Design | Avas Cup",
+        "metaDescription": "Upload your logo and preview your printed paper cup live. Instant design check with PDF and JPEG support."
+      },
+      "references": {
+        "title": "Our References | Avas Cup",
+        "metaDescription": "Avas Cup references — printed paper cups for municipalities, institutions, cafe chains and brands."
+      },
+      "contact": {
+        "title": "Contact | Avas Cup",
+        "metaDescription": "Contact Avas Cup. Get a quote via phone, email, address or WhatsApp."
+      }
+    },
+    "meta": {
+      "homeTitle": "Avas Cup | Paper Cup Manufacturing",
+      "homeDescription": "Avas Cup — 4 oz, 7 oz and 8 oz paper cup production. Printed and plain options, up to 4-color printing and nationwide delivery across Turkey."
+    },
+    "hero": {
+      "eyebrow": "AVAS CUP • PAPER CUP MANUFACTURING",
+      "title": "Quality production in",
+      "titleHighlight": "paper cups.",
+      "text": "We offer high-quality and cost-effective paper cup solutions for your business in printed or plain options across all standard sizes. Contact us to learn about custom production options and request a quote.",
+      "ctaPrimary": "Contact Us on WhatsApp",
+      "ctaSecondary": "Browse Products"
+    },
+    "products": {
+      "eyebrow": "OUR PRODUCTS",
+      "title": "Paper cup options tailored to your needs.",
+      "subtitle": "Explore our 4 OZ, 7 OZ and 8 OZ paper cups in printed or plain versions.",
+      "sizes": {
+        "4oz": {
+          "label": "4 OZ",
+          "badge": "04 OZ",
+          "title": "4 OZ Paper Cup Models",
+          "desc": "Explore 4 OZ printed and plain paper cups for espresso, tasting, sampling and small-portion service."
+        },
+        "7oz": {
+          "label": "7 OZ",
+          "badge": "MOST POPULAR",
+          "title": "7 OZ Paper Cup Models",
+          "desc": "Browse our 7 OZ printed and plain paper cups. Star, chain, kraft, white and many custom pattern options are available."
+        },
+        "8oz": {
+          "label": "8 OZ",
+          "badge": "8 OZ",
+          "title": "8 OZ Paper Cup Models",
+          "desc": "Browse 8 OZ printed and plain paper cups for hot and cold beverage service."
+        }
+      },
+      "options": [
+        { "strong": "Printed or plain", "span": "Production options for your needs" },
+        { "strong": "Up to 4-color printing", "span": "Custom branding solutions" },
+        { "strong": "Nationwide delivery", "span": "We ship across Turkey" }
+      ],
+      "viewDetail": "View Details"
+    },
+    "print": {
+      "eyebrow": "CUSTOM PRINTED CUP DESIGN",
+      "title": "Upload your logo and preview your cup.",
+      "desc": "Upload a PDF or JPEG logo to instantly preview how your printed paper cup will look. This preview is for design approval; final print files are prepared separately to production dimensions."
+    },
+    "why": {
+      "eyebrow": "WHY PAPER CUPS?",
+      "title": "Practical for daily service, powerful for your brand.",
+      "desc": "Paper cups make it easy to serve hot and cold beverages quickly and consistently. With custom printing, each cup becomes a visible touchpoint carrying your brand into your customer's hands."
+    },
+    "refs": {
+      "eyebrow": "OUR REFERENCES",
+      "title": "Businesses we've grown with.",
+      "desc": "Contact Avas Cup for paper cup solutions tailored to your brand.",
+      "filterLabel": "Reference filters",
+      "filterAll": "All",
+      "filters": {
+        "municipality": "Municipalities",
+        "corporate": "Corporate",
+        "cafe": "Cafes & Restaurants",
+        "retail": "Retail",
+        "education": "Education",
+        "healthcare": "Healthcare",
+        "international": "International"
+      },
+      "viewDetail": "View details",
+      "emptyFilter": "No references in this category.",
+      "modalClose": "Close",
+      "modalQuote": "Get a similar quote",
+      "modalSize": "Size",
+      "modalPrint": "Print",
+      "modalSector": "Sector",
+      "quoteMessage": "Hello, I'd like a quote for custom printed paper cups similar to your {name} reference."
+    },
+    "cta": {
+      "eyebrow": "GET A QUOTE",
+      "title": "Let's talk about the paper cups you need.",
+      "desc": "Share your size, print and order details — we'll get back to you with a quote.",
+      "btn": "Message on WhatsApp"
+    },
+    "contact": {
+      "eyebrow": "CONTACT",
+      "title": "Get in touch with Avas Cup.",
+      "desc": "Reach out for quotes and product details.",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "footer": {
+      "tagline": "Take it, drink it.",
+      "menu": "Quick Links",
+      "contact": "Contact",
+      "legal": "Legal",
+      "copyright": "© 2026 Avas Cup. All rights reserved."
+    },
+    "about": {
+      "title": "About Us | Avas Cup",
+      "metaDescription": "Learn about Avas Cup. Paper cup manufacturing in Istanbul, custom printed cups and nationwide delivery across Turkey.",
+      "eyebrow": "ABOUT US",
+      "heading": "Your trusted paper cup manufacturing partner.",
+      "paragraphs": [
+        "Avas Cup manufactures 4 OZ, 7 OZ and 8 OZ paper cups at our facility in Istanbul Ikitelli OSB. We serve coffee shops, restaurants, institutions and event organizers with printed and plain cup solutions.",
+        "Alongside our wide pattern catalog, we offer custom printing for your brand. With up to 4-color printing, you can carry your logo and corporate identity onto every cup.",
+        "We deliver nationwide and serve a broad reference portfolio — from municipalities and insurance companies to cafe chains and corporate brands."
+      ]
+    },
+    "faq": {
+      "title": "FAQ | Avas Cup",
+      "metaDescription": "Frequently asked questions about paper cup orders, minimum quantities, printing options and delivery.",
+      "eyebrow": "FAQ",
+      "heading": "Frequently asked questions.",
+      "items": [
+        { "q": "What is the minimum order quantity?", "a": "Minimum order quantities vary by cup size and print type. Contact us via WhatsApp or phone for current details." },
+        { "q": "Do you produce printed and plain cups?", "a": "Yes. We offer ready-made patterned models as well as custom printed paper cups for your brand." },
+        { "q": "How many print colors are available?", "a": "We offer up to 4-color printing. Share your design file and we'll review technical compatibility together." },
+        { "q": "What cup sizes do you manufacture?", "a": "We offer 4 OZ, 7 OZ and 8 OZ paper cups. Each size suits different service needs." },
+        { "q": "What is the delivery time?", "a": "Stock products ship faster. For custom printed orders, timing depends on quantity and design approval." },
+        { "q": "Do you ship across Turkey?", "a": "Yes, we provide nationwide shipping across Turkey." }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy | Avas Cup",
+      "metaDescription": "Avas Cup privacy policy and personal data protection information.",
+      "eyebrow": "PRIVACY",
+      "heading": "Privacy & Personal Data Protection",
+      "paragraphs": [
+        "At Avas Cup, we take the security of your personal data seriously in accordance with applicable data protection regulations.",
+        "Name, phone number, email address and order information shared through our website or contact channels are processed for quote preparation, order management and customer communication.",
+        "Your personal data is not shared with third parties except where required by law or necessary for service delivery. Contact us to exercise your data protection rights.",
+        "This site may use technical cookies to improve user experience. Contact us for more details."
+      ]
+    },
+    "productDetail": {
+      "sizeLabel": "Size",
+      "technicalTitle": "Technical Specifications",
+      "featuresTitle": "Features",
+      "usesTitle": "Use Cases",
+      "relatedTitle": "Related Products",
+      "quoteBtn": "Get a Quote for This Product",
+      "backToProducts": "Back to All Products",
+      "breadcrumbHome": "Home",
+      "breadcrumbProducts": "Products"
+    },
+    "whatsappMessages": {
+      "general": "Hello, I would like to get a quote for paper cups from Avas Cup.",
+      "quote": "Hello, I would like to get a quote from Avas Cup.",
+      "product": "Hello, I would like to get a quote for {product}."
+    }
+  }
+}

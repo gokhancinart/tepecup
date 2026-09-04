@@ -1,0 +1,632 @@
+[
+  {
+    "image": "images/references/iston.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "İstanbul'a özgü desenlerle kurumsal etkinlik ve tanıtım kullanımı için baskılı 7 oz karton bardak üretimi.",
+      "en": "Custom 7 oz printed paper cups with Istanbul-themed designs for corporate events and promotions."
+    },
+    "tr": {
+      "name": "İSTON",
+      "tag": "Kurumsal Baskılı Bardak"
+    },
+    "en": {
+      "name": "İSTON",
+      "tag": "Corporate Printed Cup"
+    }
+  },
+  {
+    "image": "images/references/hacioglu.jpeg",
+    "sector": "cafe",
+    "size": "4oz",
+    "print": {
+      "tr": "2 renk baskı",
+      "en": "2-color print"
+    },
+    "desc": {
+      "tr": "Çay servisi için markalı 4 oz karton bardak; kompakt ölçü ve dayanıklı yapı.",
+      "en": "Branded 4 oz paper cups for tea service — compact size with a durable build."
+    },
+    "tr": {
+      "name": "Hacıoğlu",
+      "tag": "Çay Bardağı"
+    },
+    "en": {
+      "name": "Hacıoğlu",
+      "tag": "Tea Cup"
+    }
+  },
+  {
+    "image": "images/references/dogan-medya-grubu.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Medya grubu ofis ve etkinlik kullanımı için kurumsal kimlik baskılı karton bardaklar.",
+      "en": "Corporate-branded paper cups for office and event use at a major media group."
+    },
+    "tr": {
+      "name": "Doğan Medya Grubu",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Doğan Media Group",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/sakura-cafe.jpeg",
+    "sector": "cafe",
+    "size": "7oz",
+    "print": {
+      "tr": "Özel tasarım baskı",
+      "en": "Custom design print"
+    },
+    "desc": {
+      "tr": "Restoran markasına özel illüstrasyon ve logo baskılı 7 oz bardak tasarımı.",
+      "en": "7 oz cups with custom illustration and logo print tailored to the restaurant brand."
+    },
+    "tr": {
+      "name": "Sakura Cafe & Restaurant",
+      "tag": "Özel Tasarım Bardak"
+    },
+    "en": {
+      "name": "Sakura Cafe & Restaurant",
+      "tag": "Custom Design Cup"
+    }
+  },
+  {
+    "image": "images/references/bagcilar-belediyesi.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Belediye etkinlik ve sosyal tesislerinde kullanılmak üzere kurumsal baskılı bardaklar.",
+      "en": "Corporate printed cups for municipal events and public facilities."
+    },
+    "tr": {
+      "name": "Bağcılar Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Bagcilar Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/simitci-dunyasi.jpeg",
+    "sector": "retail",
+    "size": "7oz",
+    "print": {
+      "tr": "Marka baskısı",
+      "en": "Brand print"
+    },
+    "desc": {
+      "tr": "Zincir mağaza konseptine uygun, yüksek adetli markalı karton bardak üretimi.",
+      "en": "High-volume branded paper cups aligned with a retail chain concept."
+    },
+    "tr": {
+      "name": "Simitçi Dünyası",
+      "tag": "Markalı Bardak"
+    },
+    "en": {
+      "name": "Simitci Dunyasi",
+      "tag": "Branded Cup"
+    }
+  },
+  {
+    "image": "images/references/genclik-ve-spor-bakanligi.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Etkinlik baskısı",
+      "en": "Event print"
+    },
+    "desc": {
+      "tr": "Spor ve gençlik etkinliklerinde dağıtım için bakanlık logolu baskılı bardaklar.",
+      "en": "Ministry-branded printed cups for sports and youth event distribution."
+    },
+    "tr": {
+      "name": "Gençlik ve Spor Bakanlığı",
+      "tag": "Etkinlik Bardakları"
+    },
+    "en": {
+      "name": "Ministry of Youth and Sports",
+      "tag": "Event Cups"
+    }
+  },
+  {
+    "image": "images/references/eyupsultan-belediyesi.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Belediye tanıtım ve etkinlik kullanımı için kurumsal renklerde baskılı bardak.",
+      "en": "Corporate-colored printed cups for municipal promotion and events."
+    },
+    "tr": {
+      "name": "Eyüpsultan Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Eyupsultan Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/kucukcekmece-belediyesi.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Belediye etkinliklerinde kullanılan kurumsal kimlik baskılı 7 oz karton bardak.",
+      "en": "7 oz corporate-branded cups used at municipal events."
+    },
+    "tr": {
+      "name": "Küçükçekmece Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Kucukcekmece Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/turkiye-sigorta.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "Sigorta şirketi ofis ve etkinlik kullanımı için marka baskılı karton bardaklar.",
+      "en": "Brand-printed paper cups for office and event use at an insurance company."
+    },
+    "tr": {
+      "name": "Türkiye Sigorta",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Turkiye Sigorta",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/sunglass-hut.jpeg",
+    "sector": "retail",
+    "size": "7oz",
+    "print": {
+      "tr": "Marka baskısı",
+      "en": "Brand print"
+    },
+    "desc": {
+      "tr": "Perakende mağaza zinciri için uluslararası marka standartlarına uygun baskılı bardak.",
+      "en": "Printed cups for a retail chain, matching international brand standards."
+    },
+    "tr": {
+      "name": "Sunglass Hut",
+      "tag": "Markalı Bardak"
+    },
+    "en": {
+      "name": "Sunglass Hut",
+      "tag": "Branded Cup"
+    }
+  },
+  {
+    "image": "images/references/konyaalti-belediyesi.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Antalya Konyaaltı belediyesi etkinlik ve tanıtım kullanımı için baskılı bardaklar.",
+      "en": "Printed cups for events and promotions by Konyaalti Municipality."
+    },
+    "tr": {
+      "name": "Konyaaltı Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Konyaalti Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/ziraat-teknoloji.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "Teknoloji iştiraki için ofis ve fuar kullanımına uygun kurumsal baskılı bardak.",
+      "en": "Corporate printed cups for office and trade show use at a technology subsidiary."
+    },
+    "tr": {
+      "name": "Ziraat Teknoloji",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Ziraat Technology",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/sisli-belediyesi.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Şişli Belediyesi sosyal tesis ve etkinliklerinde kullanılan baskılı karton bardak.",
+      "en": "Printed paper cups used at Sisli Municipality social facilities and events."
+    },
+    "tr": {
+      "name": "Şişli Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Sisli Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/ressa-kafe.jpeg",
+    "sector": "cafe",
+    "size": "7oz",
+    "print": {
+      "tr": "Özel tasarım baskı",
+      "en": "Custom design print"
+    },
+    "desc": {
+      "tr": "Kafe markasına özel renk ve logo baskılı 7 oz karton bardak üretimi.",
+      "en": "7 oz cups with custom color and logo print for a cafe brand."
+    },
+    "tr": {
+      "name": "Ressa Kafe",
+      "tag": "Özel Tasarım Bardak"
+    },
+    "en": {
+      "name": "Ressa Cafe",
+      "tag": "Custom Design Cup"
+    }
+  },
+  {
+    "image": "images/references/ido.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Deniz ulaşımı operasyonlarında yolcu ikramları için kurumsal baskılı bardaklar.",
+      "en": "Corporate printed cups for passenger refreshments in ferry operations."
+    },
+    "tr": {
+      "name": "İDO",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "IDO",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/ibb-lojistik-destek-merkezi.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "İBB lojistik merkezi personel ve misafir kullanımı için kurumsal baskılı bardak.",
+      "en": "Corporate printed cups for staff and guest use at an Istanbul logistics center."
+    },
+    "tr": {
+      "name": "İBB Lojistik Destek Merkezi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Istanbul Metropolitan Logistics Center",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/tchibo-karton-bardak.jpeg",
+    "sector": "retail",
+    "size": "8oz",
+    "print": {
+      "tr": "Marka baskısı",
+      "en": "Brand print"
+    },
+    "desc": {
+      "tr": "Kahve markası için 8 oz ölçüde yüksek adetli baskılı karton bardak üretimi.",
+      "en": "High-volume 8 oz printed paper cups for a coffee retail brand."
+    },
+    "tr": {
+      "name": "Tchibo",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Tchibo",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/polin-cafe.jpeg",
+    "sector": "cafe",
+    "size": "7oz",
+    "print": {
+      "tr": "Marka baskısı",
+      "en": "Brand print"
+    },
+    "desc": {
+      "tr": "Kafe zinciri için günlük servis kullanımına uygun markalı karton bardaklar.",
+      "en": "Branded paper cups for daily service at a cafe chain."
+    },
+    "tr": {
+      "name": "Polin Cafe",
+      "tag": "Markalı Bardak"
+    },
+    "en": {
+      "name": "Polin Cafe",
+      "tag": "Branded Cup"
+    }
+  },
+  {
+    "image": "images/references/isiksoy-tekstil.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "Tekstil firması fuar ve ofis kullanımı için kurumsal baskılı karton bardak.",
+      "en": "Corporate printed cups for trade show and office use at a textile company."
+    },
+    "tr": {
+      "name": "Işıksoy Tekstil",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Isiksoy Textile",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/axela.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "Kurumsal müşteri toplantı ve etkinliklerinde kullanılan logo baskılı bardaklar.",
+      "en": "Logo-printed cups for corporate client meetings and events."
+    },
+    "tr": {
+      "name": "Axela",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Axela",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/istanbul-universitesi.jpeg",
+    "sector": "education",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Üniversite etkinlik ve tanıtım günlerinde kullanılan kurumsal baskılı bardak.",
+      "en": "Corporate printed cups for university events and open days."
+    },
+    "tr": {
+      "name": "İstanbul Üniversitesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Istanbul University",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/zeytinburnu-belediyesi.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Zeytinburnu Belediyesi etkinlik ve sosyal alan kullanımı için baskılı bardak.",
+      "en": "Printed cups for events and social areas at Zeytinburnu Municipality."
+    },
+    "tr": {
+      "name": "Zeytinburnu Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Zeytinburnu Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/moodist-hastanesi.jpeg",
+    "sector": "healthcare",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "Hastane bekleme alanları ve personel kullanımı için kurumsal baskılı karton bardak.",
+      "en": "Corporate printed cups for hospital waiting areas and staff use."
+    },
+    "tr": {
+      "name": "Moodist Hastanesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Moodist Hospital",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/eyupsultan-belediyesi-2.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Eyüpsultan Belediyesi için alternatif tasarımlı kurumsal baskılı bardak serisi.",
+      "en": "Alternative corporate printed cup design series for Eyupsultan Municipality."
+    },
+    "tr": {
+      "name": "Eyüpsultan Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Eyupsultan Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/turkiye-sigorta-2.jpeg",
+    "sector": "corporate",
+    "size": "7oz",
+    "print": {
+      "tr": "Kurumsal logo baskısı",
+      "en": "Corporate logo print"
+    },
+    "desc": {
+      "tr": "Türkiye Sigorta için farklı kampanya ve etkinlik tasarımlı baskılı bardak.",
+      "en": "Printed cups with alternate campaign designs for Turkiye Sigorta."
+    },
+    "tr": {
+      "name": "Türkiye Sigorta",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Turkiye Sigorta",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/kucukcekmece-belediyesi-2.jpeg",
+    "sector": "municipality",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Küçükçekmece Belediyesi için ikinci tasarım serisi baskılı karton bardak.",
+      "en": "Second design series of printed cups for Kucukcekmece Municipality."
+    },
+    "tr": {
+      "name": "Küçükçekmece Belediyesi",
+      "tag": "Kurumsal Bardak"
+    },
+    "en": {
+      "name": "Kucukcekmece Municipality",
+      "tag": "Corporate Cup"
+    }
+  },
+  {
+    "image": "images/references/metro-georgia.jpeg",
+    "sector": "international",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Gürcistan operasyonları için uluslararası perakende markasına baskılı karton bardak.",
+      "en": "Printed paper cups for an international retail brand's Georgia operations."
+    },
+    "tr": {
+      "name": "Metro Georgia",
+      "tag": "Kurumsal Baskılı Bardak"
+    },
+    "en": {
+      "name": "Metro Georgia",
+      "tag": "Corporate Printed Cup"
+    }
+  },
+  {
+    "image": "images/references/coffee-express.jpeg",
+    "sector": "cafe",
+    "size": "7oz",
+    "print": {
+      "tr": "Marka baskısı",
+      "en": "Brand print"
+    },
+    "desc": {
+      "tr": "Kahve servisi için marka baskılı 7 oz karton bardak; yoğun servis kullanımına uygun.",
+      "en": "7 oz brand-printed cups for coffee service, suited to high-volume use."
+    },
+    "tr": {
+      "name": "Coffee Express",
+      "tag": "Markalı Bardak"
+    },
+    "en": {
+      "name": "Coffee Express",
+      "tag": "Branded Cup"
+    }
+  },
+  {
+    "image": "images/references/metro-turkiye.jpeg",
+    "sector": "retail",
+    "size": "7oz",
+    "print": {
+      "tr": "4 renk tam baskı",
+      "en": "Full-color print"
+    },
+    "desc": {
+      "tr": "Metro Türkiye mağaza operasyonları için kurumsal baskılı karton bardak üretimi.",
+      "en": "Corporate printed paper cups for Metro Turkiye store operations."
+    },
+    "tr": {
+      "name": "Metro Türkiye",
+      "tag": "Kurumsal Baskılı Bardak"
+    },
+    "en": {
+      "name": "Metro Turkiye",
+      "tag": "Corporate Printed Cup"
+    }
+  }
+]
