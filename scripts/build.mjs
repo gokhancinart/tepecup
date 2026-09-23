@@ -35,7 +35,11 @@ const PAGE_FILES = {
 };
 
 const STANDALONE_PAGES = ['products', 'print', 'references', 'contact'];
-const LOGO_FILE = 'images/avascup-logo.png';
+const LOGO_FILE = 'images/Logo/logo.png';
+const FOOTER_LOGO_FILE = 'images/Logo/logo-negative.png';
+const FAVICON_ICO = 'favicon.ico';
+const APPLE_TOUCH_ICON = 'apple-touch-icon.png';
+const BRAND_NAME = 'Tepe Cup';
 const WHATSAPP_ICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>';
 const PRODUCT_SIZE_ORDER = ['4oz', '7oz', '8oz'];
 const DEFAULT_PRODUCT_TAB = '7oz';
@@ -116,6 +120,13 @@ function write(rel, content) {
   fs.writeFileSync(file, content, 'utf8');
 }
 
+function faviconTags(depth) {
+  const a = assets(depth);
+  return `  <link rel="icon" href="${a}${FAVICON_ICO}" sizes="any">
+  <link rel="icon" href="${a}${LOGO_FILE}" type="image/png">
+  <link rel="apple-touch-icon" href="${a}${APPLE_TOUCH_ICON}">`;
+}
+
 function seoHead({ lang, locale, title, description, canonical, alternates, depth, ogImage, jsonLd = [] }) {
   const a = assets(depth);
   const og = ogImage || `${baseUrl}/${LOGO_FILE}`;
@@ -149,7 +160,7 @@ ${altTags}
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
   <meta name="twitter:image" content="${esc(og.startsWith('http') ? og : baseUrl + '/' + og.replace(/^\//, ''))}">
-  <link rel="icon" href="${a}${LOGO_FILE}" type="image/png">
+${faviconTags(depth)}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -188,8 +199,8 @@ function headerHtml(lang, s, depth, activePage = 'home', langUrls = null) {
 
   return `<header class="site-header" id="top">
   <div class="container nav-wrap">
-    <a class="brand" href="${home}" aria-label="Avas Cup">
-      <img src="${a}${LOGO_FILE}" alt="Avas Cup">
+    <a class="brand" href="${home}" aria-label="${esc(BRAND_NAME)}">
+      <img src="${a}${LOGO_FILE}" alt="${esc(BRAND_NAME)}">
     </a>
     <nav class="nav" aria-label="Main menu">
       ${navItems}
@@ -207,7 +218,7 @@ function footerHtml(lang, s, depth) {
   const p = PAGE_FILES[lang];
   return `<footer class="footer">
   <div class="container footer-grid">
-    <div><img src="${a}${LOGO_FILE}" alt="Avas Cup" class="footer-logo"></div>
+    <div><img src="${a}${FOOTER_LOGO_FILE}" alt="${esc(BRAND_NAME)}" class="footer-logo"></div>
     <div><strong>${esc(s.footer.menu)}</strong>
       <a href="${lp}${p.home}">${esc(s.nav.home)}</a>
       <a href="${lp}${p.products}">${esc(s.nav.products)}</a>
@@ -236,7 +247,7 @@ function orgJsonLd(lang) {
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Avas Cup',
+    name: BRAND_NAME,
     url: baseUrl + s.homePath,
     logo: baseUrl + '/' + LOGO_FILE,
     image: baseUrl + '/' + LOGO_FILE,
@@ -294,8 +305,8 @@ function whySectionHtml(lang, s, depth) {
     ? ['Neden karton bardak kullanmalısınız?', 'İşletmenizde hızlı servis, farklı içecek boyutları ve markanıza özel görünüm istiyorsanız karton bardaklar kullanışlı bir çözümdür. 4 OZ, 7 OZ ve 8 OZ seçenekleri sayesinde farklı servis ihtiyaçlarına uygun ölçüyü seçebilir; baskılı veya baskısız modeller arasından tercihinizi yapabilirsiniz.']
     : ['Why use paper cups?', 'If your business needs fast service, different beverage sizes and a branded look, paper cups are a practical solution. Choose from 4 OZ, 7 OZ and 8 OZ sizes and pick printed or plain models to match your needs.'];
   const whyBottom = lang === 'tr'
-    ? ['Avas Cup ile seçim daha kolay.', 'Ölçünüzü belirleyin, bardak modelinizi seçin ve isterseniz logonuzu yükleyerek baskılı bardak görünümünü önceden inceleyin.', 'Bardak Önizlemesini Deneyin']
-    : ['Easier choice with Avas Cup.', 'Pick your size, choose your cup model and preview your printed cup by uploading your logo.', 'Try Cup Preview'];
+    ? [`${BRAND_NAME} ile seçim daha kolay.`, 'Ölçünüzü belirleyin, bardak modelinizi seçin ve isterseniz logonuzu yükleyerek baskılı bardak görünümünü önceden inceleyin.', 'Bardak Önizlemesini Deneyin']
+    : [`Easier choice with ${BRAND_NAME}.`, 'Pick your size, choose your cup model and preview your printed cup by uploading your logo.', 'Try Cup Preview'];
   const lp = langPrefix(depth);
 
   return `<section class="section why-cardboard">
@@ -341,7 +352,7 @@ function contactSectionHtml(lang, s, asPage = false) {
         <a href="mailto:${contact.email}"><span>${esc(s.contact.email)}</span><strong>${esc(contact.email)}</strong></a>
         <div><span>${esc(s.contact.address)}</span><strong>${esc(contact.address[lang])}</strong></div>
       </div>`;
-  const mapLabel = lang === 'tr' ? 'Avas Cup konum haritası' : 'Avas Cup location map';
+  const mapLabel = lang === 'tr' ? `${BRAND_NAME} konum haritası` : `${BRAND_NAME} location map`;
   const mapQuery = encodeURIComponent(contact.address[lang]);
   const mapSrc = contact.mapEmbed || `https://maps.google.com/maps?q=${mapQuery}&hl=${lang}&z=15&output=embed`;
 
@@ -398,7 +409,7 @@ function mockupSection(lang, s, depth, asPage = false) {
     step2: 'Bardağa yerleştirin', step2Sub: 'Boyut ve konum',
     step3: 'Teklif alın', step3Sub: 'WhatsApp ile',
     comparePlain: 'Baskısız', comparePrinted: 'Markanıza özel baskılı',
-    examplesTitle: 'Bu markalar Avas Cup ile baskılı bardak kullanıyor',
+    examplesTitle: `Bu markalar ${BRAND_NAME} ile baskılı bardak kullanıyor`,
     badgeColors: '4 renge kadar baskı', badgeFormats: 'PDF / JPEG / PNG', badgeSizes: '4 · 7 · 8 OZ'
   } : {
     uploadStrong: 'Upload logo PDF, JPEG or PNG',
@@ -420,7 +431,7 @@ function mockupSection(lang, s, depth, asPage = false) {
     step2: 'Place on cup', step2Sub: 'Size and position',
     step3: 'Get a quote', step3Sub: 'Via WhatsApp',
     comparePlain: 'Plain', comparePrinted: 'Custom printed for your brand',
-    examplesTitle: 'These brands use Avas Cup printed cups',
+    examplesTitle: `These brands use ${BRAND_NAME} printed cups`,
     badgeColors: 'Up to 4-color print', badgeFormats: 'PDF / JPEG / PNG', badgeSizes: '4 · 7 · 8 OZ'
   };
 
@@ -740,7 +751,7 @@ function buildHome(lang) {
   const html = `${seoHead({
     lang, locale: s.locale, title: s.meta.homeTitle, description: s.meta.homeDescription,
     canonical, alternates, depth, jsonLd: [orgJsonLd(lang), {
-      '@context': 'https://schema.org', '@type': 'WebSite', name: 'Avas Cup', url: canonical
+      '@context': 'https://schema.org', '@type': 'WebSite', name: BRAND_NAME, url: canonical
     }]
   })}
 <body>
@@ -759,7 +770,7 @@ ${headerHtml(lang, s, depth, 'home', relativeLangUrls(lang, 'home'))}
       </div>
       <div class="hero-visual">
         <div class="hero-card">
-          <img src="${a}images/7oz-karton-bardak/7oz-yildiz-karton-bardak.png" alt="Avas Cup 7 oz">
+          <img src="${a}images/7oz-karton-bardak/7oz-yildiz-karton-bardak.png" alt="${esc(BRAND_NAME)} 7 oz">
           <div class="hero-badge"><strong>AVAS CUP</strong><small>Take it, drink it.</small></div>
         </div>
       </div>
@@ -849,17 +860,17 @@ function buildProductPage(lang, product) {
   }).join('\n');
 
   const html = `${seoHead({
-    lang, locale: s.locale, title: loc.title + ' | Avas Cup', description: loc.metaDescription,
+    lang, locale: s.locale, title: loc.title + ` | ${BRAND_NAME}`, description: loc.metaDescription,
     canonical, alternates: alt, depth, ogImage: product.image, jsonLd: [{
       '@context': 'https://schema.org',
       '@type': 'Product',
       name: loc.title,
       description: loc.description,
       image: baseUrl + '/' + product.image,
-      brand: { '@type': 'Brand', name: 'Avas Cup' },
+      brand: { '@type': 'Brand', name: BRAND_NAME },
       offers: {
         '@type': 'Offer', availability: 'https://schema.org/InStock', priceCurrency: 'TRY',
-        url: canonical, seller: { '@type': 'Organization', name: 'Avas Cup' }
+        url: canonical, seller: { '@type': 'Organization', name: BRAND_NAME }
       }
     }, {
       '@context': 'https://schema.org', '@type': 'BreadcrumbList',
@@ -1026,13 +1037,40 @@ function buildAll() {
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="0; url=/tr/">
   <link rel="canonical" href="${baseUrl}/tr/">
-  <title>Avas Cup</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <title>${esc(BRAND_NAME)}</title>
   <script>location.replace('/tr/');</script>
 </head>
-<body><p><a href="/tr/">Avas Cup</a></p></body>
+<body><p><a href="/tr/">${esc(BRAND_NAME)}</a></p></body>
 </html>`);
 
+  publishStaticSite();
+
   console.log(`Built ${urls.length} URLs across TR/EN site.`);
+}
+
+function publishStaticSite() {
+  const out = path.join(ROOT, 'public');
+  fs.rmSync(out, { recursive: true, force: true });
+  fs.mkdirSync(out, { recursive: true });
+  const entries = [
+    'index.html',
+    'robots.txt',
+    'sitemap.xml',
+    'favicon.ico',
+    'apple-touch-icon.png',
+    'css',
+    'js',
+    'images',
+    'tr',
+    'en'
+  ];
+  for (const rel of entries) {
+    const src = path.join(ROOT, rel);
+    if (!fs.existsSync(src)) continue;
+    fs.cpSync(src, path.join(out, rel), { recursive: true });
+  }
 }
 
 buildAll();

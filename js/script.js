@@ -56,7 +56,7 @@ document.querySelectorAll('.product-tab').forEach(tab => {
   let sourceCanvas=null;
   let userLogo=false;
   const demoBadge=document.getElementById('demoBadge');
-  const demoLogoSrc=assetBase+'images/avascup-logo.png';
+  const demoLogoSrc=assetBase+'images/Logo/logo.png';
   const sizeScale={4:0.759,7:1,8:1.139};
   const mockupBase={w:390,h:520};
 
@@ -132,7 +132,7 @@ document.querySelectorAll('.product-tab').forEach(tab => {
       ctx.restore();
       ctx.restore();
       const link=document.createElement('a');
-      link.download=`avascup-${state.size}oz-onizleme.png`;
+      link.download=`tepecup-${state.size}oz-onizleme.png`;
       link.href=out.toDataURL('image/png');
       document.body.appendChild(link);
       link.click();
