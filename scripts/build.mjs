@@ -76,10 +76,6 @@ function contactEmails() {
   return contact.email ? [contact.email] : [];
 }
 
-function emailLinks() {
-  return contactEmails().map(email => `<a href="mailto:${esc(email)}">${esc(email)}</a>`).join('\n      ');
-}
-
 function productUrl(lang, product) {
   const loc = lang === 'tr' ? product.tr : product.en;
   const folder = lang === 'tr' ? 'urunler' : 'products';
@@ -242,7 +238,7 @@ function footerHtml(lang, s, depth) {
     </div>
     <div class="footer-contact"><strong>${esc(s.footer.contact)}</strong>
       <a href="tel:${contact.phone}">${esc(contact.phoneDisplay)}</a>
-      ${emailLinks()}
+      <p class="footer-address">${esc(contact.address[lang])}</p>
     </div>
   </div>
   <div class="container copyright">${esc(s.footer.copyright)}</div>
