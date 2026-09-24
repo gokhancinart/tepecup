@@ -947,6 +947,10 @@ function buildContentPage(lang, type) {
     body = `<div class="faq-list">${page.items.map(item =>
       `<details class="faq-item"><summary>${esc(item.q)}</summary><p>${esc(item.a)}</p></details>`
     ).join('\n')}</div>`;
+  } else if (type === 'about' && page.points) {
+    body = `<div class="about-points">${page.points.map((point, i) =>
+      `<article class="about-point"><span>${String(i + 1).padStart(2, '0')}</span><h2>${esc(point.title)}</h2><p>${esc(point.text)}</p></article>`
+    ).join('\n')}</div>`;
   } else {
     body = page.paragraphs.map(p => `<p>${esc(p)}</p>`).join('\n');
   }
@@ -974,7 +978,7 @@ ${headerHtml(lang, s, depth, type, langUrls)}
   <div class="container">
     ${pageHead}
     ${aboutImage}
-    <div class="content-body content-body-page">${body}</div>
+    ${type === 'about' ? body : `<div class="content-body content-body-page">${body}</div>`}
   </div>
 </main>
 ${footerHtml(lang, s, depth)}

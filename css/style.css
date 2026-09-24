@@ -3,8 +3,15 @@
 @media(max-width:560px){.container{width:min(100% - 28px,1160px)}.nav-wrap{min-height:72px;padding:8px 0;gap:10px}.brand img{height:56px;max-width:210px}.hero h1{font-size:46px}.hero{padding:45px 0}.product-grid,.feature-grid,.print-gallery,.footer-grid{grid-template-columns:1fr}.footer-contact{justify-self:start;text-align:left}.product-image{height:280px}.print-gallery img{height:280px}.section{padding:70px 0}.page-main{padding:32px 0 64px}.cta-section{padding:40px 0 70px}.home-products-section + .cta-section{padding-top:48px}.hero-card{padding:12px;border-radius:22px}}
 
 .about-section{background:#fff}
-.about-visual{margin:0 0 32px;border-radius:24px;overflow:hidden;border:1px solid #e7eaf1;background:#f5f6f8}
-.about-visual img{display:block;width:100%;height:auto}
+.about-head.page-head-block{margin-bottom:28px}
+.about-visual{margin:0 0 22px;border-radius:24px;overflow:hidden;border:1px solid #e7eaf1;background:#f5f6f8}
+.about-visual img{display:block;width:100%;height:min(420px,52vw);object-fit:cover;object-position:center}
+.about-points{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.about-point{background:#fff;border:1px solid #e7eaf1;border-radius:20px;padding:24px 22px 22px}
+.about-point span{display:block;margin-bottom:12px;font-size:12px;font-weight:800;letter-spacing:.14em;color:#ef7d13}
+.about-point h2{margin:0 0 8px;font-size:20px;line-height:1.25;letter-spacing:-.4px;color:#242d68}
+.about-point p{margin:0;color:#5f6679;font-size:15px;line-height:1.7}
+@media(max-width:850px){.about-points{grid-template-columns:1fr}}
 .about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}
 .about-copy{max-width:650px;color:#5f6679;font-size:17px}
 .about-copy p{margin:0 0 18px}

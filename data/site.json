@@ -155,10 +155,19 @@
       "metaDescription": "Tepe Cup hakkında bilgi edinin. İstanbul'da karton bardak üretimi, baskılı bardak çözümleri ve Türkiye geneli teslimat.",
       "eyebrow": "HAKKIMIZDA",
       "heading": "Karton bardakta güvenilir üretim ortağınız.",
-      "paragraphs": [
-        "Tepe Cup, İstanbul İkitelli OSB'deki tesisimizde 4 OZ, 7 OZ ve 8 OZ karton bardak üretimi yapmaktadır. Kahve dükkanları, restoranlar, kurumlar ve etkinlik organizasyonları için baskılı ve baskısız bardak çözümleri sunuyoruz.",
-        "Geniş desen kataloğumuzun yanı sıra markanıza özel baskı seçenekleri de mevcuttur. 4 renge kadar baskı imkânı ile logonuzu ve kurumsal kimliğinizi bardağa taşıyabilirsiniz.",
-        "Türkiye genelinde gönderim yapıyor; belediyelerden sigorta şirketlerine, kafe zincirlerinden kurumsal markalara kadar geniş bir referans portföyüne hizmet veriyoruz."
+      "points": [
+        {
+          "title": "Tesisimizde üretim",
+          "text": "İstanbul İkitelli OSB'deki tesisimizde 4 OZ, 7 OZ ve 8 OZ karton bardak üretiyoruz. Kahve dükkanları, restoranlar, kurumlar ve etkinlikler için baskılı ve baskısız seçenekler sunuyoruz."
+        },
+        {
+          "title": "Markanıza özel baskı",
+          "text": "Hazır desen kataloğunun yanında logonuza özel baskı da yapıyoruz. 4 renge kadar baskı ile kurumsal kimliğinizi bardağa taşıyabilirsiniz."
+        },
+        {
+          "title": "Türkiye geneli teslimat",
+          "text": "Belediyelerden kafe zincirlerine kadar geniş bir portföye üretim yapıyor, siparişleri Türkiye'nin her yerine gönderiyoruz."
+        }
       ]
     },
     "faq": {
@@ -348,10 +357,19 @@
       "metaDescription": "Learn about Tepe Cup. Paper cup manufacturing in Istanbul, custom printed cups and nationwide delivery across Turkey.",
       "eyebrow": "ABOUT US",
       "heading": "Your trusted paper cup manufacturing partner.",
-      "paragraphs": [
-        "Tepe Cup manufactures 4 OZ, 7 OZ and 8 OZ paper cups at our facility in Istanbul Ikitelli OSB. We serve coffee shops, restaurants, institutions and event organizers with printed and plain cup solutions.",
-        "Alongside our wide pattern catalog, we offer custom printing for your brand. With up to 4-color printing, you can carry your logo and corporate identity onto every cup.",
-        "We deliver nationwide and serve a broad reference portfolio — from municipalities and insurance companies to cafe chains and corporate brands."
+      "points": [
+        {
+          "title": "Made in our facility",
+          "text": "We manufacture 4 OZ, 7 OZ and 8 OZ paper cups at our plant in Istanbul Ikitelli OSB, for coffee shops, restaurants, institutions and events."
+        },
+        {
+          "title": "Custom printing",
+          "text": "Alongside our pattern catalog, we print your logo. Up to 4 colors let you carry your brand onto every cup."
+        },
+        {
+          "title": "Nationwide delivery",
+          "text": "From municipalities to cafe chains, we produce for a wide range of clients and ship orders across Turkey."
+        }
       ]
     },
     "faq": {
