@@ -3,6 +3,10 @@
   "contact": {
     "phone": "+905313369259",
     "phoneDisplay": "+90 531 336 92 59",
+    "phones": [
+      { "tel": "+905313369259", "display": "+90 531 336 92 59" },
+      { "tel": "+905305480160", "display": "+90 530 548 01 60" }
+    ],
     "emails": ["info@tepecup.com", "ismail@tepecup.com"],
     "address": {
       "tr": "İkitelli OSB Mahallesi, Eskoop Sanayi Sitesi C5 Blok No:235, Başakşehir / İstanbul",

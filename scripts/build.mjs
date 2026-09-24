@@ -76,6 +76,12 @@ function contactEmails() {
   return contact.email ? [contact.email] : [];
 }
 
+function contactPhones() {
+  if (Array.isArray(contact.phones) && contact.phones.length) return contact.phones;
+  if (contact.phone) return [{ tel: contact.phone, display: contact.phoneDisplay || contact.phone }];
+  return [];
+}
+
 function productUrl(lang, product) {
   const loc = lang === 'tr' ? product.tr : product.en;
   const folder = lang === 'tr' ? 'urunler' : 'products';
@@ -237,7 +243,7 @@ function footerHtml(lang, s, depth) {
       <a href="${lp}${p.privacy}">${lang === 'tr' ? 'KVKK' : 'Privacy'}</a>
     </div>
     <div class="footer-contact"><strong>${esc(s.footer.contact)}</strong>
-      <a href="tel:${contact.phone}">${esc(contact.phoneDisplay)}</a>
+      ${contactPhones().map(phone => `<a href="tel:${esc(phone.tel)}">${esc(phone.display)}</a>`).join('\n      ')}
       <p class="footer-address">${esc(contact.address[lang])}</p>
     </div>
   </div>
@@ -256,7 +262,7 @@ function orgJsonLd(lang) {
     url: baseUrl + s.homePath,
     logo: baseUrl + '/' + LOGO_FILE,
     image: baseUrl + '/' + LOGO_FILE,
-    telephone: contact.phone,
+    telephone: contactPhones().map(phone => phone.tel),
     email: contactEmails(),
     address: {
       '@type': 'PostalAddress',
@@ -353,7 +359,7 @@ function contactSectionHtml(lang, s, asPage = false) {
     ? pageHeadSplit(s.contact.eyebrow, s.contact.title, s.contact.desc, 'contact-head')
     : sectionHeadSplit(s.contact.eyebrow, s.contact.title, s.contact.desc, 'contact-head');
   const contactList = `<div class="contact-list">
-        <a href="tel:${contact.phone}"><span>${esc(s.contact.phone)}</span><strong>${esc(contact.phoneDisplay)}</strong></a>
+        ${contactPhones().map(phone => `<a href="tel:${esc(phone.tel)}"><span>${esc(s.contact.phone)}</span><strong>${esc(phone.display)}</strong></a>`).join('\n        ')}
         ${contactEmails().map(email => `<a href="mailto:${esc(email)}"><span>${esc(s.contact.email)}</span><strong>${esc(email)}</strong></a>`).join('\n        ')}
         <div><span>${esc(s.contact.address)}</span><strong>${esc(contact.address[lang])}</strong></div>
       </div>`;
