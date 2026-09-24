@@ -780,7 +780,7 @@ ${headerHtml(lang, s, depth, 'home', relativeLangUrls(lang, 'home'))}
       <div class="hero-visual">
         <div class="hero-card">
           <img src="${a}images/7oz-karton-bardak/7oz-yildiz-karton-bardak.png" alt="${esc(BRAND_NAME)} 7 oz">
-          <div class="hero-badge"><strong>AVAS CUP</strong><small>Take it, drink it.</small></div>
+          <div class="hero-badge"><strong>TEPE CUP</strong><small>Take it, drink it.</small></div>
         </div>
       </div>
     </div>
