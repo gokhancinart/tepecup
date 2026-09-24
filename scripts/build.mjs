@@ -1073,6 +1073,7 @@ function publishStaticSite() {
     'sitemap.xml',
     'favicon.ico',
     'apple-touch-icon.png',
+    'google90218e5abf7d3090.html',
     'css',
     'js',
     'images',
