@@ -960,16 +960,20 @@ function buildContentPage(lang, type) {
   }] : [];
 
   const pageHead = pageHeadSplit(page.eyebrow, page.heading, page.metaDescription, `${type}-head page-head-block`);
+  const aboutImage = type === 'about'
+    ? `<figure class="about-visual"><img src="${a}images/tepecup-uretim.jpg" alt="${esc(lang === 'tr' ? 'Tepe Cup üretim tesisi' : 'Tepe Cup production facility')}"></figure>`
+    : '';
 
   const html = `${seoHead({
     lang, locale: s.locale, title: page.title, description: page.metaDescription,
-    canonical, alternates, depth, jsonLd
+    canonical, alternates, depth, ogImage: type === 'about' ? `${baseUrl}/images/tepecup-uretim.jpg` : undefined, jsonLd
   })}
 <body class="content-page">
 ${headerHtml(lang, s, depth, type, langUrls)}
 <main class="page-main">
   <div class="container">
     ${pageHead}
+    ${aboutImage}
     <div class="content-body content-body-page">${body}</div>
   </div>
 </main>
