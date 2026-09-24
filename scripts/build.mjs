@@ -340,7 +340,7 @@ function whySectionHtml(lang, s, depth) {
         </div>
         <div class="why-bottom-visual" aria-hidden="true">
           <div class="why-bottom-cups">
-            <img src="${assets(depth)}images/4oz-karton-bardak/4oz-beyaz.jpg" alt="">
+            <img src="${assets(depth)}images/4oz-karton-bardak/4oz-beyaz.webp" alt="">
             <span class="why-bottom-arrow">→</span>
             <img src="${assets(depth)}${references[0].image}" alt="" class="why-bottom-cup-main">
           </div>
@@ -462,7 +462,7 @@ function mockupSection(lang, s, depth, asPage = false) {
       </div>
       <div class="print-compare">
         <figure class="print-compare-item">
-          <img src="${a}images/4oz-karton-bardak/4oz-beyaz.jpg" alt="${esc(t.comparePlain)}" loading="lazy">
+          <img src="${a}images/4oz-karton-bardak/4oz-beyaz.webp" alt="${esc(t.comparePlain)}" loading="lazy">
           <figcaption>${esc(t.comparePlain)}</figcaption>
         </figure>
         <div class="print-compare-arrow" aria-hidden="true">→</div>
@@ -779,7 +779,7 @@ ${headerHtml(lang, s, depth, 'home', relativeLangUrls(lang, 'home'))}
       </div>
       <div class="hero-visual">
         <div class="hero-card">
-          <img src="${a}images/7oz-karton-bardak/7oz-yildiz-karton-bardak.png" alt="${esc(BRAND_NAME)} 7 oz">
+          <img src="${a}images/7oz-karton-bardak/7oz-yildiz-karton-bardak.webp" alt="${esc(BRAND_NAME)} 7 oz">
           <div class="hero-badge"><strong>TEPE CUP</strong><small>Take it, drink it.</small></div>
         </div>
       </div>

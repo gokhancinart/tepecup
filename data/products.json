@@ -157,7 +157,7 @@
     {
       "id": "7oz-baskisiz",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-baskisiz-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-baskisiz-karton-bardak.webp",
       "tr": {
         "slug": "7oz-baskisiz-karton-bardak",
         "name": "Baskısız",
@@ -188,7 +188,7 @@
     {
       "id": "7oz-cizgi",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-cizgi-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-cizgi-karton-bardak.webp",
       "tr": {
         "slug": "7oz-cizgi-karton-bardak",
         "name": "Çizgi",
@@ -219,7 +219,7 @@
     {
       "id": "7oz-coffee",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-coffee-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-coffee-karton-bardak.webp",
       "tr": {
         "slug": "7oz-coffee-karton-bardak",
         "name": "Coffee",
@@ -250,7 +250,7 @@
     {
       "id": "7oz-coffee-renkli",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-coffee-renkli-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-coffee-renkli-karton-bardak.webp",
       "tr": {
         "slug": "7oz-coffee-renkli-karton-bardak",
         "name": "Coffee Renkli",
@@ -281,7 +281,7 @@
     {
       "id": "7oz-espresso",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-espresso-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-espresso-karton-bardak.webp",
       "tr": {
         "slug": "7oz-espresso-karton-bardak",
         "name": "Espresso",
@@ -312,7 +312,7 @@
     {
       "id": "7oz-kraft",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-kraft-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-kraft-karton-bardak.webp",
       "tr": {
         "slug": "7oz-kraft-karton-bardak",
         "name": "Kraft",
@@ -343,7 +343,7 @@
     {
       "id": "7oz-kraft-yildiz",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-kraft-yildiz-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-kraft-yildiz-karton-bardak.webp",
       "tr": {
         "slug": "7oz-kraft-yildiz-karton-bardak",
         "name": "Kraft Yıldız",
@@ -374,7 +374,7 @@
     {
       "id": "7oz-petek",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-petek-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-petek-karton-bardak.webp",
       "tr": {
         "slug": "7oz-petek-karton-bardak",
         "name": "Petek",
@@ -405,7 +405,7 @@
     {
       "id": "7oz-retro",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-retro-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-retro-karton-bardak.webp",
       "tr": {
         "slug": "7oz-retro-karton-bardak",
         "name": "Retro",
@@ -436,7 +436,7 @@
     {
       "id": "7oz-togo",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-togo-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-togo-karton-bardak.webp",
       "tr": {
         "slug": "7oz-togo-karton-bardak",
         "name": "To Go",
@@ -467,7 +467,7 @@
     {
       "id": "7oz-xox",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-xox-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-xox-karton-bardak.webp",
       "tr": {
         "slug": "7oz-xox-karton-bardak",
         "name": "XOX",
@@ -498,7 +498,7 @@
     {
       "id": "7oz-yildiz",
       "size": "7oz",
-      "image": "images/7oz-karton-bardak/7oz-yildiz-karton-bardak.png",
+      "image": "images/7oz-karton-bardak/7oz-yildiz-karton-bardak.webp",
       "tr": {
         "slug": "7oz-yildiz-karton-bardak",
         "name": "Yıldız",
@@ -529,7 +529,7 @@
     {
       "id": "4oz-good-idea",
       "size": "4oz",
-      "image": "images/4oz-karton-bardak/4oz-good-idea.jpg",
+      "image": "images/4oz-karton-bardak/4oz-good-idea.webp",
       "tr": {
         "slug": "4oz-good-idea-karton-bardak",
         "name": "Good Idea",
@@ -560,7 +560,7 @@
     {
       "id": "4oz-beyaz",
       "size": "4oz",
-      "image": "images/4oz-karton-bardak/4oz-beyaz.jpg",
+      "image": "images/4oz-karton-bardak/4oz-beyaz.webp",
       "tr": {
         "slug": "4oz-beyaz-karton-bardak",
         "name": "Beyaz",
@@ -591,7 +591,7 @@
     {
       "id": "4oz-kraft",
       "size": "4oz",
-      "image": "images/4oz-karton-bardak/4oz-kraft.jpg",
+      "image": "images/4oz-karton-bardak/4oz-kraft.webp",
       "tr": {
         "slug": "4oz-kraft-karton-bardak",
         "name": "Kraft",
@@ -622,7 +622,7 @@
     {
       "id": "4oz-coffee-mix",
       "size": "4oz",
-      "image": "images/4oz-karton-bardak/4oz-coffee-mix.jpg",
+      "image": "images/4oz-karton-bardak/4oz-coffee-mix.webp",
       "tr": {
         "slug": "4oz-coffee-mix-karton-bardak",
         "name": "Coffee Mix",
@@ -653,7 +653,7 @@
     {
       "id": "8oz-coffee",
       "size": "8oz",
-      "image": "images/8oz-karton-bardak/8oz-coffee.jpg",
+      "image": "images/8oz-karton-bardak/8oz-coffee.webp",
       "tr": {
         "slug": "8oz-coffee-karton-bardak",
         "name": "Coffee",
@@ -684,7 +684,7 @@
     {
       "id": "8oz-special-coffee-to-go",
       "size": "8oz",
-      "image": "images/8oz-karton-bardak/8oz-special-coffee-to-go.jpg",
+      "image": "images/8oz-karton-bardak/8oz-special-coffee-to-go.webp",
       "tr": {
         "slug": "8oz-special-coffee-to-go-karton-bardak",
         "name": "Special Coffee To Go",
@@ -715,7 +715,7 @@
     {
       "id": "8oz-beyaz",
       "size": "8oz",
-      "image": "images/8oz-karton-bardak/8oz-beyaz.jpg",
+      "image": "images/8oz-karton-bardak/8oz-beyaz.webp",
       "tr": {
         "slug": "8oz-beyaz-karton-bardak",
         "name": "Beyaz",
@@ -746,7 +746,7 @@
     {
       "id": "8oz-kraft",
       "size": "8oz",
-      "image": "images/8oz-karton-bardak/8oz-kraft.jpg",
+      "image": "images/8oz-karton-bardak/8oz-kraft.webp",
       "tr": {
         "slug": "8oz-kraft-karton-bardak",
         "name": "Kraft",
@@ -777,7 +777,7 @@
     {
       "id": "8oz-coffee-mix",
       "size": "8oz",
-      "image": "images/8oz-karton-bardak/8oz-coffee-mix.jpg",
+      "image": "images/8oz-karton-bardak/8oz-coffee-mix.webp",
       "tr": {
         "slug": "8oz-coffee-mix-karton-bardak",
         "name": "Coffee Mix",
