@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.avascup.com/sitemap.xml
+Sitemap: https://www.tepecup.com/sitemap.xml

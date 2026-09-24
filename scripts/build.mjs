@@ -71,6 +71,15 @@ function waUrl(message) {
   return `https://wa.me/${contact.whatsapp}?text=${encodeURIComponent(message)}`;
 }
 
+function contactEmails() {
+  if (Array.isArray(contact.emails) && contact.emails.length) return contact.emails;
+  return contact.email ? [contact.email] : [];
+}
+
+function emailLinks() {
+  return contactEmails().map(email => `<a href="mailto:${esc(email)}">${esc(email)}</a>`).join('\n      ');
+}
+
 function productUrl(lang, product) {
   const loc = lang === 'tr' ? product.tr : product.en;
   const folder = lang === 'tr' ? 'urunler' : 'products';
@@ -233,7 +242,7 @@ function footerHtml(lang, s, depth) {
     </div>
     <div class="footer-contact"><strong>${esc(s.footer.contact)}</strong>
       <a href="tel:${contact.phone}">${esc(contact.phoneDisplay)}</a>
-      <a href="mailto:${contact.email}">${esc(contact.email)}</a>
+      ${emailLinks()}
     </div>
   </div>
   <div class="container copyright">${esc(s.footer.copyright)}</div>
@@ -252,7 +261,7 @@ function orgJsonLd(lang) {
     logo: baseUrl + '/' + LOGO_FILE,
     image: baseUrl + '/' + LOGO_FILE,
     telephone: contact.phone,
-    email: contact.email,
+    email: contactEmails(),
     address: {
       '@type': 'PostalAddress',
       streetAddress: contact.address[lang],
@@ -349,7 +358,7 @@ function contactSectionHtml(lang, s, asPage = false) {
     : sectionHeadSplit(s.contact.eyebrow, s.contact.title, s.contact.desc, 'contact-head');
   const contactList = `<div class="contact-list">
         <a href="tel:${contact.phone}"><span>${esc(s.contact.phone)}</span><strong>${esc(contact.phoneDisplay)}</strong></a>
-        <a href="mailto:${contact.email}"><span>${esc(s.contact.email)}</span><strong>${esc(contact.email)}</strong></a>
+        ${contactEmails().map(email => `<a href="mailto:${esc(email)}"><span>${esc(s.contact.email)}</span><strong>${esc(email)}</strong></a>`).join('\n        ')}
         <div><span>${esc(s.contact.address)}</span><strong>${esc(contact.address[lang])}</strong></div>
       </div>`;
   const mapLabel = lang === 'tr' ? `${BRAND_NAME} konum haritası` : `${BRAND_NAME} location map`;
